@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati a My Music</title>
+    <style>
+        .space{
+            margin-top: 10px;
+        }
+
+        h1, h3, h4{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Acquista l'abbonamento a My Music</h1>
+    <h3>Compila i seguenti campi</h3>
+    <div style="text-align: center;">
+        <form onsubmit="alert('Registrazione inviata')">
+            <div>
+                <input type="text" placeholder="Nome" required>
+                <input type="text" placeholder="Cognome" required>
+            </div>
+            <div class="space">
+                <input type="email" placeholder="Indirizzo email" required>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="space">
+                <label>Inserisci la tua data di nascita</label>
+                <input type="date" required>
+            </div>
+            <h4>Quali sono i tuoi gusti musicali</h4>
+            <div>
+                <input type="checkbox">Hard Rock                
+                <input type="checkbox">Heavy Metal
+            </div>
+            <div class="space">
+                <input type="checkbox">Reggae
+                <input type="checkbox">Ska
+            </div>
+            <div class="space">
+                <input type="radio" name="termini_condizioni" required>Accetta i termini e le condizioni
+            </div>
+            <div class="space">
+                <button type="submit">Invia la registrazione</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
